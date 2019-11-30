@@ -51,3 +51,9 @@ flask run
 ```
 
 it will be running on http://127.0.0.1:5000/. if an error occurs saying that it is already in use, this will help: https://stackoverflow.com/questions/34457981/trying-to-run-flask-app-gives-address-already-in-use
+
+### Running the testcases
+```
+python test_apis.py -v 
+```
+-v option is for verbose
